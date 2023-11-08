@@ -10,3 +10,5 @@ Name | Type | Description | Notes
 **averageHeartRate** | **number** |  | [default to undefined]
 **graphData** | [**Array&lt;HeartRateDataPointData&gt;**](HeartRateDataPointData.md) |  | [optional] [default to undefined]
 
+
+[[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)

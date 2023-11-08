@@ -18,3 +18,5 @@ Name | Type | Description | Notes
 **facilityRelationships** | [**Array&lt;FacilityRelationshipData&gt;**](FacilityRelationshipData.md) |  | [optional] [default to undefined]
 **sessions** | [**Array&lt;SessionData&gt;**](SessionData.md) |  | [optional] [default to undefined]
 
+
+[[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)

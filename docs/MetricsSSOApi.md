@@ -83,10 +83,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **acceptedTermsVersionUpdate**
 > AcceptedTermsVersionResponse acceptedTermsVersionUpdate()
@@ -134,10 +134,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **authConnect**
 > UserResponse authConnect()
@@ -185,10 +185,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **authElevate**
 > ExchangeableUserResponse authElevate()
@@ -236,10 +236,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **authExchangeFulfillment**
 > UserResponse authExchangeFulfillment()
@@ -287,7 +287,7 @@ Name | Type | Description  | Notes
 No authorization required
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **authExchangeInit**
 > ExchangeableUserResponse authExchangeInit()
@@ -332,10 +332,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **authFacilityWelcomeFulfillment**
 > ExchangeableUserResponse authFacilityWelcomeFulfillment()
@@ -389,7 +389,7 @@ Name | Type | Description  | Notes
 No authorization required
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **authKeepAlive**
 > authKeepAlive()
@@ -431,10 +431,10 @@ void (empty response body)
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **authLogin**
 > ExchangeableUserResponse authLogin()
@@ -488,7 +488,7 @@ Name | Type | Description  | Notes
 No authorization required
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **authLogout**
 > authLogout()
@@ -533,10 +533,10 @@ void (empty response body)
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **authResetFulfillment**
 > ExchangeableUserResponse authResetFulfillment()
@@ -590,7 +590,7 @@ Name | Type | Description  | Notes
 No authorization required
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **authResetRequest**
 > authResetRequest()
@@ -644,7 +644,7 @@ void (empty response body)
 No authorization required
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **authSetFacility**
 > FacilityResponse authSetFacility()
@@ -695,10 +695,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **authUpdate**
 > UserResponse authUpdate()
@@ -746,10 +746,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **authUserInit**
 > authUserInit()
@@ -827,7 +827,7 @@ void (empty response body)
 No authorization required
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **authUserInitFulfillment**
 > ExchangeableUserResponse authUserInitFulfillment()
@@ -905,7 +905,7 @@ Name | Type | Description  | Notes
 No authorization required
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **authValidateReturnRoute**
 > CheckReturnRouteResponse authValidateReturnRoute()
@@ -953,7 +953,7 @@ Name | Type | Description  | Notes
 No authorization required
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **basicCredentialCreate**
 > UserResponse basicCredentialCreate()
@@ -1001,10 +1001,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **basicCredentialUpdate**
 > UserResponse basicCredentialUpdate()
@@ -1052,10 +1052,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **emailAddressValidationFulfillment**
 > EmailAddressResponse emailAddressValidationFulfillment()
@@ -1100,10 +1100,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **heightMeasurementCreate**
 > HeightMeasurementResponse heightMeasurementCreate()
@@ -1157,10 +1157,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **oauthAuthorize**
 > OauthResponse oauthAuthorize()
@@ -1214,10 +1214,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **oauthDeauthorize**
 > oauthDeauthorize()
@@ -1262,10 +1262,10 @@ void (empty response body)
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **oauthInitiate**
 > RedirectResponse oauthInitiate()
@@ -1319,7 +1319,7 @@ Name | Type | Description  | Notes
 No authorization required
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **oauthServiceDelete**
 > oauthServiceDelete()
@@ -1367,10 +1367,10 @@ void (empty response body)
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **oauthServiceList**
 > OAuthServiceListResponse oauthServiceList()
@@ -1430,10 +1430,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **oauthServiceShow**
 > OAuthServiceResponse oauthServiceShow()
@@ -1481,10 +1481,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **oauthServiceSubscriptionCreate**
 > OauthServiceSubscriptionResponse oauthServiceSubscriptionCreate()
@@ -1544,10 +1544,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **oauthServiceSubscriptionDelete**
 > oauthServiceSubscriptionDelete()
@@ -1595,10 +1595,10 @@ void (empty response body)
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **oauthServiceSubscriptionList**
 > OauthServiceSubscriptionListResponse oauthServiceSubscriptionList()
@@ -1664,10 +1664,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **oauthServiceSubscriptionShow**
 > OauthServiceSubscriptionResponse oauthServiceSubscriptionShow()
@@ -1715,10 +1715,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **oauthToken**
 > oauthToken()
@@ -1778,7 +1778,7 @@ void (empty response body)
 No authorization required
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **profileUpdate**
 > ProfileResponse profileUpdate()
@@ -1838,10 +1838,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **weightMeasurementCreate**
 > WeightMeasurementResponse weightMeasurementCreate()
@@ -1898,8 +1898,8 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 

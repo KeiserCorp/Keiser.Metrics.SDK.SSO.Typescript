@@ -12,3 +12,5 @@ Name | Type | Description | Notes
 **bodyFatPercentage** | **number** |  | [optional] [default to undefined]
 **bodyCompositionMeasurement** | [**BodyCompositionMeasurementData**](BodyCompositionMeasurementData.md) |  | [optional] [default to undefined]
 
+
+[[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)

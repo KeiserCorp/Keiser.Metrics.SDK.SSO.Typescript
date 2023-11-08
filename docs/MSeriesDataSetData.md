@@ -37,3 +37,5 @@ Name | Type | Description | Notes
 **mSeriesDataSetSegments** | [**Array&lt;MSeriesDataSetSegmentData&gt;**](MSeriesDataSetSegmentData.md) |  | [optional] [default to undefined]
 **graphData** | [**Array&lt;MSeriesDataPointData&gt;**](MSeriesDataPointData.md) |  | [optional] [default to undefined]
 
+
+[[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)

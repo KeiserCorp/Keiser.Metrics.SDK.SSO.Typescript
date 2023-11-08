@@ -10,3 +10,5 @@ Name | Type | Description | Notes
 **description** | **string** |  | [optional] [default to undefined]
 **exerciseOrdinalSetAssignments** | [**Array&lt;ExerciseOrdinalSetAssignmentData&gt;**](ExerciseOrdinalSetAssignmentData.md) |  | [optional] [default to undefined]
 
+
+[[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)

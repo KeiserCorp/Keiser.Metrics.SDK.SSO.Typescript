@@ -11,3 +11,5 @@ Name | Type | Description | Notes
 **cardioExerciseMuscles** | [**Array&lt;MuscleData&gt;**](MuscleData.md) |  | [optional] [default to undefined]
 **cardioMachines** | [**Array&lt;CardioMachineData&gt;**](CardioMachineData.md) |  | [optional] [default to undefined]
 
+
+[[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)

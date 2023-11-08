@@ -20,3 +20,5 @@ Name | Type | Description | Notes
 **sessionPlanSequenceAssignments** | [**Array&lt;SessionPlanSequenceAssignmentData&gt;**](SessionPlanSequenceAssignmentData.md) |  | [optional] [default to undefined]
 **sessionPlanSequenceInstances** | [**Array&lt;SessionPlanSequenceInstanceData&gt;**](SessionPlanSequenceInstanceData.md) |  | [optional] [default to undefined]
 
+
+[[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
