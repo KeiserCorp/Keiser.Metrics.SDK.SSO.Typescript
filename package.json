@@ -1,7 +1,7 @@
 {
-  "name": "@keiser/metrics-sdk-sso",
-  "version": "5.0.2",
-  "description": "OpenAPI client for @keiser/metrics-sdk-sso",
+  "name": "@keiser/metrics-sdk-sso-typescript",
+  "version": "5.0.3",
+  "description": "OpenAPI client for @keiser/metrics-sdk-sso-typescript",
   "author": "OpenAPI-Generator",
   "repository": {
     "type": "git",

@@ -48,7 +48,7 @@ Method | HTTP request | Description
 
 
 ```typescript
-import { MetricsSSOApi } from '@keiser/metrics-sdk-sso';
+import { MetricsSSOApi } from '@keiser/metrics-sdk-sso-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsSSOApi();
@@ -96,7 +96,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsSSOApi } from '@keiser/metrics-sdk-sso';
+import { MetricsSSOApi } from '@keiser/metrics-sdk-sso-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsSSOApi();
@@ -147,7 +147,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsSSOApi } from '@keiser/metrics-sdk-sso';
+import { MetricsSSOApi } from '@keiser/metrics-sdk-sso-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsSSOApi();
@@ -198,7 +198,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsSSOApi } from '@keiser/metrics-sdk-sso';
+import { MetricsSSOApi } from '@keiser/metrics-sdk-sso-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsSSOApi();
@@ -249,7 +249,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsSSOApi } from '@keiser/metrics-sdk-sso';
+import { MetricsSSOApi } from '@keiser/metrics-sdk-sso-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsSSOApi();
@@ -297,7 +297,7 @@ No authorization required
 
 
 ```typescript
-import { MetricsSSOApi } from '@keiser/metrics-sdk-sso';
+import { MetricsSSOApi } from '@keiser/metrics-sdk-sso-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsSSOApi();
@@ -345,7 +345,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsSSOApi } from '@keiser/metrics-sdk-sso';
+import { MetricsSSOApi } from '@keiser/metrics-sdk-sso-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsSSOApi();
@@ -399,7 +399,7 @@ No authorization required
 
 
 ```typescript
-import { MetricsSSOApi } from '@keiser/metrics-sdk-sso';
+import { MetricsSSOApi } from '@keiser/metrics-sdk-sso-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsSSOApi();
@@ -444,7 +444,7 @@ void (empty response body)
 
 
 ```typescript
-import { MetricsSSOApi } from '@keiser/metrics-sdk-sso';
+import { MetricsSSOApi } from '@keiser/metrics-sdk-sso-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsSSOApi();
@@ -498,7 +498,7 @@ No authorization required
 
 
 ```typescript
-import { MetricsSSOApi } from '@keiser/metrics-sdk-sso';
+import { MetricsSSOApi } from '@keiser/metrics-sdk-sso-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsSSOApi();
@@ -546,7 +546,7 @@ void (empty response body)
 
 
 ```typescript
-import { MetricsSSOApi } from '@keiser/metrics-sdk-sso';
+import { MetricsSSOApi } from '@keiser/metrics-sdk-sso-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsSSOApi();
@@ -600,7 +600,7 @@ No authorization required
 
 
 ```typescript
-import { MetricsSSOApi } from '@keiser/metrics-sdk-sso';
+import { MetricsSSOApi } from '@keiser/metrics-sdk-sso-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsSSOApi();
@@ -654,7 +654,7 @@ No authorization required
 
 
 ```typescript
-import { MetricsSSOApi } from '@keiser/metrics-sdk-sso';
+import { MetricsSSOApi } from '@keiser/metrics-sdk-sso-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsSSOApi();
@@ -708,7 +708,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsSSOApi } from '@keiser/metrics-sdk-sso';
+import { MetricsSSOApi } from '@keiser/metrics-sdk-sso-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsSSOApi();
@@ -759,7 +759,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsSSOApi } from '@keiser/metrics-sdk-sso';
+import { MetricsSSOApi } from '@keiser/metrics-sdk-sso-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsSSOApi();
@@ -837,7 +837,7 @@ No authorization required
 
 
 ```typescript
-import { MetricsSSOApi } from '@keiser/metrics-sdk-sso';
+import { MetricsSSOApi } from '@keiser/metrics-sdk-sso-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsSSOApi();
@@ -915,7 +915,7 @@ No authorization required
 
 
 ```typescript
-import { MetricsSSOApi } from '@keiser/metrics-sdk-sso';
+import { MetricsSSOApi } from '@keiser/metrics-sdk-sso-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsSSOApi();
@@ -963,7 +963,7 @@ No authorization required
 
 
 ```typescript
-import { MetricsSSOApi } from '@keiser/metrics-sdk-sso';
+import { MetricsSSOApi } from '@keiser/metrics-sdk-sso-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsSSOApi();
@@ -1014,7 +1014,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsSSOApi } from '@keiser/metrics-sdk-sso';
+import { MetricsSSOApi } from '@keiser/metrics-sdk-sso-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsSSOApi();
@@ -1065,7 +1065,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsSSOApi } from '@keiser/metrics-sdk-sso';
+import { MetricsSSOApi } from '@keiser/metrics-sdk-sso-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsSSOApi();
@@ -1113,7 +1113,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsSSOApi } from '@keiser/metrics-sdk-sso';
+import { MetricsSSOApi } from '@keiser/metrics-sdk-sso-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsSSOApi();
@@ -1170,7 +1170,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsSSOApi } from '@keiser/metrics-sdk-sso';
+import { MetricsSSOApi } from '@keiser/metrics-sdk-sso-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsSSOApi();
@@ -1227,7 +1227,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsSSOApi } from '@keiser/metrics-sdk-sso';
+import { MetricsSSOApi } from '@keiser/metrics-sdk-sso-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsSSOApi();
@@ -1275,7 +1275,7 @@ void (empty response body)
 
 
 ```typescript
-import { MetricsSSOApi } from '@keiser/metrics-sdk-sso';
+import { MetricsSSOApi } from '@keiser/metrics-sdk-sso-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsSSOApi();
@@ -1329,7 +1329,7 @@ No authorization required
 
 
 ```typescript
-import { MetricsSSOApi } from '@keiser/metrics-sdk-sso';
+import { MetricsSSOApi } from '@keiser/metrics-sdk-sso-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsSSOApi();
@@ -1380,7 +1380,7 @@ void (empty response body)
 
 
 ```typescript
-import { MetricsSSOApi } from '@keiser/metrics-sdk-sso';
+import { MetricsSSOApi } from '@keiser/metrics-sdk-sso-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsSSOApi();
@@ -1443,7 +1443,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsSSOApi } from '@keiser/metrics-sdk-sso';
+import { MetricsSSOApi } from '@keiser/metrics-sdk-sso-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsSSOApi();
@@ -1494,7 +1494,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsSSOApi } from '@keiser/metrics-sdk-sso';
+import { MetricsSSOApi } from '@keiser/metrics-sdk-sso-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsSSOApi();
@@ -1557,7 +1557,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsSSOApi } from '@keiser/metrics-sdk-sso';
+import { MetricsSSOApi } from '@keiser/metrics-sdk-sso-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsSSOApi();
@@ -1608,7 +1608,7 @@ void (empty response body)
 
 
 ```typescript
-import { MetricsSSOApi } from '@keiser/metrics-sdk-sso';
+import { MetricsSSOApi } from '@keiser/metrics-sdk-sso-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsSSOApi();
@@ -1677,7 +1677,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsSSOApi } from '@keiser/metrics-sdk-sso';
+import { MetricsSSOApi } from '@keiser/metrics-sdk-sso-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsSSOApi();
@@ -1728,7 +1728,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsSSOApi } from '@keiser/metrics-sdk-sso';
+import { MetricsSSOApi } from '@keiser/metrics-sdk-sso-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsSSOApi();
@@ -1788,7 +1788,7 @@ No authorization required
 
 
 ```typescript
-import { MetricsSSOApi } from '@keiser/metrics-sdk-sso';
+import { MetricsSSOApi } from '@keiser/metrics-sdk-sso-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsSSOApi();
@@ -1851,7 +1851,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsSSOApi } from '@keiser/metrics-sdk-sso';
+import { MetricsSSOApi } from '@keiser/metrics-sdk-sso-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsSSOApi();
