@@ -1,11 +1,11 @@
 {
   "name": "@keiser/metrics-sdk-sso-typescript",
-  "version": "5.0.5",
+  "version": "5.0.6",
   "description": "OpenAPI client for @keiser/metrics-sdk-sso-typescript",
   "author": "OpenAPI-Generator",
   "repository": {
     "type": "git",
-    "url": "https://github.com/GIT_USER_ID/GIT_REPO_ID.git"
+    "url": "https://github.com/KeiserCorp/Keiser.Metrics.SDK.SSO.Typescript.git"
   },
   "main": "./dist/index.js",
   "module": "dist/index.mjs",
