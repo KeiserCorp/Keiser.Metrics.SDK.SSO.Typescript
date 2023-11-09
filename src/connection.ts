@@ -3,6 +3,7 @@ import { SessionError } from './error'
 import { EventDispatcher } from './event'
 import { DEFAULT_REQUEST_TIMEOUT, ConnectionEvent, ConnectionOptions, MetricsConnection, PushDataEvent, HTTPMethod, HTTPHeaders } from './runtime'
 export const JWT_TTL_LIMIT = 5000
+const MAX_TIMEOUT = 2147483647;
 
   /** @ignore */
 const MODEL_UPDATE_ROOM_REGEX = /^sub:/
@@ -124,7 +125,6 @@ export class AuthenticatedConnection {
     async initializeAuthenticatedSession( refreshToken: string) : Promise<AuthenticatedResponse> {
       this.updateTokens({accessToken: refreshToken})
       const authenticatedResponse: AuthenticatedResponse = await this.keepAccessTokenAlive();
-      this.updateTokens(authenticatedResponse);
       return authenticatedResponse;
     }
   
@@ -138,7 +138,9 @@ export class AuthenticatedConnection {
   
       if (this._keepAlive) {
         const tokenTTL = this.decodedAccessToken.exp * 1000 - Date.now() - JWT_TTL_LIMIT
-        this._accessTokenTimeout = setTimeout(() => { void this.keepAccessTokenAlive() }, tokenTTL)
+        if(tokenTTL < MAX_TIMEOUT ) {
+          this._accessTokenTimeout = setTimeout(() => { void this.keepAccessTokenAlive() }, tokenTTL)
+        }
       }
   
       if (typeof response.refreshToken !== 'undefined') {
@@ -150,7 +152,7 @@ export class AuthenticatedConnection {
     private async keepAccessTokenAlive(): Promise<AuthenticatedResponse>  {
       if (this._keepAlive) {
         try {
-          const response: AuthenticatedResponse = await this.action('auth:keepAlive', `/auth/keep-alive`, 'POST', {}, {}, {})
+          const response: AuthenticatedResponse = await this.authenticatedAction('auth:keepAlive', `/auth/keep-alive`, 'POST', {}, {}, {})
           return response;
         } catch (error) {
   
