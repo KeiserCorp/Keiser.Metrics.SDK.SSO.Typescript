@@ -1,6 +1,6 @@
 # MetricsSSOApi
 
-All URIs are relative to *https://metrics-api.keiser.com/api*
+All URIs are relative to *https://metrics-api-v3.keiser.com/api*
 
 Method | HTTP request | Description
 ------------- | ------------- | -------------
