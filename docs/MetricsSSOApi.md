@@ -29,12 +29,12 @@ Method | HTTP request | Description
 [**oauthDeauthorize**](MetricsSSOApi.md#oauthDeauthorize) | **DELETE** /oauth/deauthorize | Deauthorizes an oauth user
 [**oauthInitiate**](MetricsSSOApi.md#oauthInitiate) | **POST** /oauth/initiate/{service} | Initiates OAuth access request and return parameters
 [**oauthServiceDelete**](MetricsSSOApi.md#oauthServiceDelete) | **DELETE** /oauth/service/{id} | Delete a user\&#39;s oauth service connection
-[**oauthServiceList**](MetricsSSOApi.md#oauthServiceList) | **GET** /oauth/service | List a user\&#39;s oauth service connections
-[**oauthServiceShow**](MetricsSSOApi.md#oauthServiceShow) | **GET** /oauth/service/{id} | Show a user\&#39;s oauth service connection
+[**oauthServiceList**](MetricsSSOApi.md#oauthServiceList) | **GET** /oauth/service/list | List a user\&#39;s oauth service connections
+[**oauthServiceShow**](MetricsSSOApi.md#oauthServiceShow) | **GET** /oauth/service | Show a user\&#39;s oauth service connection
 [**oauthServiceSubscriptionCreate**](MetricsSSOApi.md#oauthServiceSubscriptionCreate) | **POST** /oauth/service/subscription | Create a oauth service subscription
 [**oauthServiceSubscriptionDelete**](MetricsSSOApi.md#oauthServiceSubscriptionDelete) | **DELETE** /oauth/service/subscription/{id} | Delete a oauth service subscription
-[**oauthServiceSubscriptionList**](MetricsSSOApi.md#oauthServiceSubscriptionList) | **GET** /oauth/service/subscription | List oauth service subscriptions
-[**oauthServiceSubscriptionShow**](MetricsSSOApi.md#oauthServiceSubscriptionShow) | **GET** /oauth/service/subscription/{id} | Show an oauth service subscription
+[**oauthServiceSubscriptionList**](MetricsSSOApi.md#oauthServiceSubscriptionList) | **GET** /oauth/service/subscription/list | List oauth service subscriptions
+[**oauthServiceSubscriptionShow**](MetricsSSOApi.md#oauthServiceSubscriptionShow) | **GET** /oauth/service/subscription | Show an oauth service subscription
 [**oauthToken**](MetricsSSOApi.md#oauthToken) | **GET** /oauth/token | Returns tokens for third party oauth
 [**profileUpdate**](MetricsSSOApi.md#profileUpdate) | **PUT** /user/profile | Update a user profile
 [**weightMeasurementCreate**](MetricsSSOApi.md#weightMeasurementCreate) | **POST** /user/weight-measurement | Create a user weight measurement

@@ -1,4 +1,4 @@
-## @keiser/metrics-sdk-sso-typescript@5.0.9
+## @keiser/metrics-sdk-sso-typescript@5.0.10
 
 ## Project
 This SDK facilitates communication between a client system (_ie: phone app, website, server_) and [Keiser Metrics](https://metrics.keiser.com). The SDK is written in [TypeScript](https://www.typescriptlang.org) and supports both [browser](https://caniuse.com/#feat=es6) and [NodeJS](https://nodejs.org) platforms.
@@ -9,7 +9,7 @@ This SDK facilitates communication between a client system (_ie: phone app, webs
 Navigate to the folder of your consuming project and install with [npm](https://www.npmjs.com/):
 
 ```
-npm install @keiser/metrics-sdk-sso-typescript@5.0.9 --save
+npm install @keiser/metrics-sdk-sso-typescript@5.0.10 --save
 ```
 
 
@@ -70,12 +70,12 @@ Method | HTTP request | Description
 [**oauthDeauthorize**](docs/MetricsSSOApi.md#oauthDeauthorize) | **DELETE** /oauth/deauthorize | Deauthorizes an oauth user
 [**oauthInitiate**](docs/MetricsSSOApi.md#oauthInitiate) | **POST** /oauth/initiate/{service} | Initiates OAuth access request and return parameters
 [**oauthServiceDelete**](docs/MetricsSSOApi.md#oauthServiceDelete) | **DELETE** /oauth/service/{id} | Delete a user\&#39;s oauth service connection
-[**oauthServiceList**](docs/MetricsSSOApi.md#oauthServiceList) | **GET** /oauth/service | List a user\&#39;s oauth service connections
-[**oauthServiceShow**](docs/MetricsSSOApi.md#oauthServiceShow) | **GET** /oauth/service/{id} | Show a user\&#39;s oauth service connection
+[**oauthServiceList**](docs/MetricsSSOApi.md#oauthServiceList) | **GET** /oauth/service/list | List a user\&#39;s oauth service connections
+[**oauthServiceShow**](docs/MetricsSSOApi.md#oauthServiceShow) | **GET** /oauth/service | Show a user\&#39;s oauth service connection
 [**oauthServiceSubscriptionCreate**](docs/MetricsSSOApi.md#oauthServiceSubscriptionCreate) | **POST** /oauth/service/subscription | Create a oauth service subscription
 [**oauthServiceSubscriptionDelete**](docs/MetricsSSOApi.md#oauthServiceSubscriptionDelete) | **DELETE** /oauth/service/subscription/{id} | Delete a oauth service subscription
-[**oauthServiceSubscriptionList**](docs/MetricsSSOApi.md#oauthServiceSubscriptionList) | **GET** /oauth/service/subscription | List oauth service subscriptions
-[**oauthServiceSubscriptionShow**](docs/MetricsSSOApi.md#oauthServiceSubscriptionShow) | **GET** /oauth/service/subscription/{id} | Show an oauth service subscription
+[**oauthServiceSubscriptionList**](docs/MetricsSSOApi.md#oauthServiceSubscriptionList) | **GET** /oauth/service/subscription/list | List oauth service subscriptions
+[**oauthServiceSubscriptionShow**](docs/MetricsSSOApi.md#oauthServiceSubscriptionShow) | **GET** /oauth/service/subscription | Show an oauth service subscription
 [**oauthToken**](docs/MetricsSSOApi.md#oauthToken) | **GET** /oauth/token | Returns tokens for third party oauth
 [**profileUpdate**](docs/MetricsSSOApi.md#profileUpdate) | **PUT** /user/profile | Update a user profile
 [**weightMeasurementCreate**](docs/MetricsSSOApi.md#weightMeasurementCreate) | **POST** /user/weight-measurement | Create a user weight measurement
