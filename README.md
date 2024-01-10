@@ -1,4 +1,4 @@
-## @keiser/metrics-sdk-sso-typescript@5.0.24
+## @keiser/metrics-sdk-sso-typescript@5.0.25
 
 ## Project
 This SDK facilitates communication between a client system (_ie: phone app, website, server_) and [Keiser Metrics](https://metrics.keiser.com). The SDK is written in [TypeScript](https://www.typescriptlang.org) and supports both [browser](https://caniuse.com/#feat=es6) and [NodeJS](https://nodejs.org) platforms.
@@ -9,7 +9,7 @@ This SDK facilitates communication between a client system (_ie: phone app, webs
 Navigate to the folder of your consuming project and install with [npm](https://www.npmjs.com/):
 
 ```
-npm install @keiser/metrics-sdk-sso-typescript@5.0.24 --save
+npm install @keiser/metrics-sdk-sso-typescript@5.0.25 --save
 ```
 
 
