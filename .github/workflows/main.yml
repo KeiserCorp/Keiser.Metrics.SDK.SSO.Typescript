@@ -1,0 +1,63 @@
+on: 
+  push:
+    branches:
+      - main
+
+name: Main
+
+jobs:
+
+  version-check:
+    name: Version Check
+    runs-on: ubuntu-latest    
+    outputs:
+      changed: ${{ steps.check.outputs.changed }}
+      version: ${{ steps.check.outputs.version }}
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Check Version
+        id: check
+        uses: EndBug/version-check@v2
+        with:
+          diff-search: true
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+  release:
+    name: Release Typescript SDK
+    needs: version-check
+    if: needs.version-check.outputs.changed == 'true'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Create Release
+        id: create_release
+        uses: actions/create-release@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          tag_name: v${{ needs.version-check.outputs.version }}
+          release_name: Release v${{ needs.version-check.outputs.version }}
+
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 14
+          registry-url: 'https://registry.npmjs.org'
+      - run: npm install
+      - run: npm run build
+      - run: npm publish --access public
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+
+      - name: Send Notification
+        uses: bayssmekanique/action-simple-slack-notifier@v1
+        if: always()
+        with:
+          token: ${{ secrets.SLACK_BOT_TOKEN }}
+          channel: '#deployment'
+          platform: Typescript
+          status: ${{ job.status }}
+          version: ${{ needs.version-check.outputs.version }}
