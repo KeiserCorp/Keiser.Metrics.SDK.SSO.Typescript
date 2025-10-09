@@ -1305,7 +1305,7 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **redirect** | [**string**] |  | defaults to undefined
- **service** | [**string**] | Allowed values: google, facebook, apple, strava, trainingpeaks | defaults to undefined
+ **service** | [**string**] | Allowed values: apple, google, facebook, strava, trainingpeaks | defaults to undefined
  **type** | [**string**] | Allowed values: login, connect | defaults to undefined
  **apiVersion** | [**string**] |  | (optional) defaults to undefined
 
@@ -1652,7 +1652,7 @@ Name | Type | Description  | Notes
  **limit** | [**number**] |  | (optional) defaults to undefined
  **model** | [**string**] |  | (optional) defaults to undefined
  **offset** | [**number**] |  | (optional) defaults to undefined
- **service** | [**string**] | Allowed values: google, facebook, apple, strava, trainingpeaks | (optional) defaults to undefined
+ **service** | [**string**] | Allowed values: apple, google, facebook, strava, trainingpeaks | (optional) defaults to undefined
  **sort** | [**string**] | Allowed values: id, service, model | (optional) defaults to 'id'
  **userId** | [**number**] |  | (optional) defaults to undefined
  **apiVersion** | [**string**] |  | (optional) defaults to undefined
@@ -1721,7 +1721,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **oauthToken**
-> oauthToken()
+> OauthTokenResponse oauthToken()
 
 
 ### Example
@@ -1763,7 +1763,7 @@ Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **clientIdentifier** | [**string**] |  | defaults to undefined
  **clientSecret** | [**string**] |  | defaults to undefined
- **grantType** | [**string**] | Allowed values: authorization_code, refresh_token | defaults to undefined
+ **grantType** | [**string**] |  | defaults to undefined
  **authorizationCode** | [**string**] |  | (optional) defaults to undefined
  **refreshToken** | [**string**] |  | (optional) defaults to undefined
  **apiVersion** | [**string**] |  | (optional) defaults to undefined
@@ -1771,7 +1771,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-void (empty response body)
+**OauthTokenResponse**
 
 ### Authorization
 

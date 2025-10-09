@@ -1,4 +1,4 @@
-## @keiser/metrics-sdk-sso-typescript@5.0.35
+## @keiser/metrics-sdk-sso-typescript@5.1.0
 
 ## Project
 This SDK facilitates communication between a client system (_ie: phone app, website, server_) and [Keiser Metrics](https://metrics.keiser.com). The SDK is written in [TypeScript](https://www.typescriptlang.org) and supports both [browser](https://caniuse.com/#feat=es6) and [NodeJS](https://nodejs.org) platforms.
@@ -9,7 +9,7 @@ This SDK facilitates communication between a client system (_ie: phone app, webs
 Navigate to the folder of your consuming project and install with [npm](https://www.npmjs.com/):
 
 ```
-npm install @keiser/metrics-sdk-sso-typescript@5.0.35 --save
+npm install @keiser/metrics-sdk-sso-typescript@5.1.0 --save
 ```
 
 
@@ -83,7 +83,9 @@ Method | HTTP request | Description
 
 ## Documentation for Models
 
+ - [A500AppType](docs/A500AppType.md)
  - [A500DataSetData](docs/A500DataSetData.md)
+ - [A500DataSetType](docs/A500DataSetType.md)
  - [A500MachineStateData](docs/A500MachineStateData.md)
  - [A500RepDataPointData](docs/A500RepDataPointData.md)
  - [A500TestResultData](docs/A500TestResultData.md)
@@ -93,24 +95,30 @@ Method | HTTP request | Description
  - [BodyCompositionMeasurementData](docs/BodyCompositionMeasurementData.md)
  - [CardioExerciseData](docs/CardioExerciseData.md)
  - [CardioExerciseVariantData](docs/CardioExerciseVariantData.md)
+ - [CardioExerciseVariantType](docs/CardioExerciseVariantType.md)
  - [CardioMachineData](docs/CardioMachineData.md)
+ - [CardioMachineParseCode](docs/CardioMachineParseCode.md)
+ - [CharacterType](docs/CharacterType.md)
  - [CheckReturnRouteResponse](docs/CheckReturnRouteResponse.md)
  - [EmailAddressData](docs/EmailAddressData.md)
  - [EmailAddressResponse](docs/EmailAddressResponse.md)
+ - [EmployeeRole](docs/EmployeeRole.md)
  - [ExchangeableUserResponse](docs/ExchangeableUserResponse.md)
  - [ExerciseAliasData](docs/ExerciseAliasData.md)
+ - [ExerciseAliasType](docs/ExerciseAliasType.md)
  - [ExerciseOrdinalSetAssignmentData](docs/ExerciseOrdinalSetAssignmentData.md)
  - [ExerciseOrdinalSetData](docs/ExerciseOrdinalSetData.md)
  - [FacilityConfigurationData](docs/FacilityConfigurationData.md)
  - [FacilityData](docs/FacilityData.md)
  - [FacilityLicenseData](docs/FacilityLicenseData.md)
+ - [FacilityLicenseType](docs/FacilityLicenseType.md)
  - [FacilityProfileData](docs/FacilityProfileData.md)
  - [FacilityRelationshipData](docs/FacilityRelationshipData.md)
  - [FacilityResponse](docs/FacilityResponse.md)
  - [FacilitySessionUserData](docs/FacilitySessionUserData.md)
  - [FacilityStrengthMachineConfigurationData](docs/FacilityStrengthMachineConfigurationData.md)
  - [FacilityStrengthMachineData](docs/FacilityStrengthMachineData.md)
- - [FingerprintData](docs/FingerprintData.md)
+ - [ForceUnit](docs/ForceUnit.md)
  - [HeartRateDataPointData](docs/HeartRateDataPointData.md)
  - [HeartRateDataSetData](docs/HeartRateDataSetData.md)
  - [HeartRateDataSetSessionData](docs/HeartRateDataSetSessionData.md)
@@ -123,7 +131,7 @@ Method | HTTP request | Description
  - [MuscleArea](docs/MuscleArea.md)
  - [MuscleData](docs/MuscleData.md)
  - [MuscleGroup](docs/MuscleGroup.md)
- - [MuscleIdentifier](docs/MuscleIdentifier.md)
+ - [MuscleTargetLevel](docs/MuscleTargetLevel.md)
  - [OAuthServiceData](docs/OAuthServiceData.md)
  - [OAuthServiceListResponse](docs/OAuthServiceListResponse.md)
  - [OAuthServiceListResponseMeta](docs/OAuthServiceListResponseMeta.md)
@@ -134,10 +142,12 @@ Method | HTTP request | Description
  - [OauthServiceSubscriptionListResponse](docs/OauthServiceSubscriptionListResponse.md)
  - [OauthServiceSubscriptionResponse](docs/OauthServiceSubscriptionResponse.md)
  - [OauthServiceSubscriptionsMeta](docs/OauthServiceSubscriptionsMeta.md)
+ - [OauthTokenResponse](docs/OauthTokenResponse.md)
  - [PrimaryEmailAddressData](docs/PrimaryEmailAddressData.md)
  - [ProfileData](docs/ProfileData.md)
  - [ProfileResponse](docs/ProfileResponse.md)
  - [RedirectResponse](docs/RedirectResponse.md)
+ - [ResistancePrecision](docs/ResistancePrecision.md)
  - [SessionData](docs/SessionData.md)
  - [SessionPlanActivitySetData](docs/SessionPlanActivitySetData.md)
  - [SessionPlanCardioSetData](docs/SessionPlanCardioSetData.md)
@@ -147,17 +157,30 @@ Method | HTTP request | Description
  - [SessionPlanSequenceInstanceData](docs/SessionPlanSequenceInstanceData.md)
  - [SessionPlanSetData](docs/SessionPlanSetData.md)
  - [SessionPlanSetInstanceData](docs/SessionPlanSetInstanceData.md)
+ - [SessionPlanSetType](docs/SessionPlanSetType.md)
  - [SessionPlanStrengthSetData](docs/SessionPlanStrengthSetData.md)
  - [SessionPlanStretchSetData](docs/SessionPlanStretchSetData.md)
+ - [Side](docs/Side.md)
+ - [StrengthExerciseCategory](docs/StrengthExerciseCategory.md)
  - [StrengthExerciseData](docs/StrengthExerciseData.md)
+ - [StrengthExerciseMovement](docs/StrengthExerciseMovement.md)
+ - [StrengthExerciseMovementDEP](docs/StrengthExerciseMovementDEP.md)
+ - [StrengthExercisePlane](docs/StrengthExercisePlane.md)
+ - [StrengthExerciseVariantAttachment](docs/StrengthExerciseVariantAttachment.md)
  - [StrengthExerciseVariantData](docs/StrengthExerciseVariantData.md)
+ - [StrengthExerciseVariantType](docs/StrengthExerciseVariantType.md)
+ - [StrengthMachineAppType](docs/StrengthMachineAppType.md)
  - [StrengthMachineData](docs/StrengthMachineData.md)
  - [StrengthMachineDataSetData](docs/StrengthMachineDataSetData.md)
  - [StrengthMachineDataSetTestData](docs/StrengthMachineDataSetTestData.md)
  - [StrengthMachineDataSetTestSubsetData](docs/StrengthMachineDataSetTestSubsetData.md)
+ - [StrengthMachineLine](docs/StrengthMachineLine.md)
  - [StrengthMachineModelData](docs/StrengthMachineModelData.md)
+ - [StrengthTestType](docs/StrengthTestType.md)
  - [StretchExerciseData](docs/StretchExerciseData.md)
  - [StretchExerciseVariantData](docs/StretchExerciseVariantData.md)
+ - [StretchExerciseVariantType](docs/StretchExerciseVariantType.md)
+ - [TestSide](docs/TestSide.md)
  - [UserData](docs/UserData.md)
  - [UserResponse](docs/UserResponse.md)
  - [WeightMeasurementData](docs/WeightMeasurementData.md)

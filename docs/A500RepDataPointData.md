@@ -5,7 +5,7 @@
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **id** | **number** |  | [default to undefined]
-**side** | **string** |  | [default to undefined]
+**side** | [**Side**](Side.md) |  | [default to undefined]
 **count** | **number** |  | [default to undefined]
 **work** | **number** |  | [default to undefined]
 **completedAt** | **Date** |  | [default to undefined]
@@ -16,7 +16,7 @@ Name | Type | Description | Notes
 **averageVelocity** | **number** |  | [default to undefined]
 **rangeOfMotion** | **number** |  | [default to undefined]
 **setPointForce** | **number** |  | [default to undefined]
-**forceUnit** | **string** |  | [default to undefined]
+**forceUnit** | [**ForceUnit**](ForceUnit.md) |  | [default to undefined]
 **startSinceEpoch** | **number** |  | [default to undefined]
 **endSinceEpoch** | **number** |  | [default to undefined]
 **addedMass** | **number** |  | [default to undefined]
@@ -25,32 +25,6 @@ Name | Type | Description | Notes
 **averageTorque** | **number** |  | [optional] [default to undefined]
 **peakForce** | **number** |  | [optional] [default to undefined]
 **averageForce** | **number** |  | [optional] [default to undefined]
-
-
-
-## Enum: A500RepDataPointDataSideEnum
-
-
-* `Left` (value: `'left'`)
-
-* `Right` (value: `'right'`)
-
-
-
-
-
-## Enum: A500RepDataPointDataForceUnitEnum
-
-
-* `Lb` (value: `'lb'`)
-
-* `Kg` (value: `'kg'`)
-
-* `Ne` (value: `'ne'`)
-
-* `Er` (value: `'er'`)
-
-
 
 
 [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)

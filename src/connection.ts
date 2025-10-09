@@ -7,12 +7,12 @@ const MAX_TIMEOUT = 2147483647;
 
   /** @ignore */
 const MODEL_UPDATE_ROOM_REGEX = /^sub:/
-export interface AuthenticatedResponse {
-  accessToken: string
-  refreshToken?: string
+interface AuthenticatedResponse {
+  accessToken: string;
+  refreshToken?: string;
 }
-export interface SubscriptionResponse extends AuthenticatedResponse {
-  subscriptionKey: string
+interface SubscriptionResponse extends AuthenticatedResponse {
+  subscriptionKey: string;
 }
 
 export interface AuthPrefillParams {
@@ -99,6 +99,12 @@ export interface ListSubscribeParameters {
   actionOverride?: string
 }
 
+export function isAuthenticatedResponse(
+  response: unknown
+): response is AuthenticatedResponse {
+  if (!response || typeof response !== "object") return false
+  return "accessToken" in response && typeof response.accessToken === "string"
+}
 
 export class AuthenticatedConnection {
     protected readonly _connection: MetricsConnection
@@ -149,14 +155,28 @@ export class AuthenticatedConnection {
       }
     }
   
-    private async keepAccessTokenAlive(): Promise<AuthenticatedResponse>  {
-      if (this._keepAlive) {
-        try {
-          const response: AuthenticatedResponse = await this.authenticatedAction('auth:keepAlive', `/auth/keep-alive`, 'POST', {}, {}, {})
-          return response;
-        } catch (error) {
-  
+    private async keepAccessTokenAlive(): Promise<AuthenticatedResponse> {
+      try {
+        const response = await this.authenticatedAction(
+          "auth:keepAlive",
+          `/auth/keep-alive`,
+          "POST",
+          {},
+          {},
+          {}
+        );
+        if (!isAuthenticatedResponse(response)) {
+          throw new SessionError({
+            name: "InvalidTokenResponse",
+            message: "Failed to refresh access token",
+          });
         }
+        return response;
+      } catch (error) {
+        throw new SessionError({
+          name: "TokenRefreshFailed",
+          message: "Failed to keep access token alive",
+        });
       }
     }
   
@@ -236,7 +256,9 @@ export class AuthenticatedConnection {
           throw error
         }
       }
-      this.updateTokens(response)
+      if (isAuthenticatedResponse(response)) {
+        this.updateTokens(response)
+      }
       return response
     }
     async action (action: string, route: string, method: HTTPMethod, params: Object = { }, pathParams: Object = { }, headers: HTTPHeaders) {
@@ -247,7 +269,7 @@ export class AuthenticatedConnection {
       } catch (error) {
         throw error
       }
-      if (response.accessToken) {
+      if (isAuthenticatedResponse(response)) {
         this.updateTokens(response)
       }
       return response

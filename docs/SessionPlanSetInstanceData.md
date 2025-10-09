@@ -5,7 +5,7 @@
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **id** | **number** |  | [default to undefined]
-**notes** | **string** |  | [default to undefined]
+**notes** | **string** |  | [optional] [default to undefined]
 **completed** | **boolean** |  | [default to undefined]
 **type** | **string** |  | [optional] [default to undefined]
 **sessionPlanCardioSet** | [**SessionPlanCardioSetData**](SessionPlanCardioSetData.md) |  | [optional] [default to undefined]
@@ -18,11 +18,11 @@ Name | Type | Description | Notes
 ## Enum: SessionPlanSetInstanceDataTypeEnum
 
 
+* `Cardio` (value: `'cardio'`)
+
 * `Strength` (value: `'strength'`)
 
 * `Stretch` (value: `'stretch'`)
-
-* `Cardio` (value: `'cardio'`)
 
 * `Activity` (value: `'activity'`)
 

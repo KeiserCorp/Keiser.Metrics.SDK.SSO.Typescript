@@ -25,7 +25,7 @@ Name | Type | Description | Notes
 **averageMetabolicEquivalent** | **number** |  | [optional] [default to undefined]
 **stepCount** | **number** |  | [optional] [default to undefined]
 **duration** | **number** |  | [default to undefined]
-**initialOffset** | **string** |  | [optional] [default to undefined]
+**initialOffset** | **number** |  | [optional] [default to undefined]
 **machineType** | **string** |  | [default to undefined]
 **weight** | **number** |  | [optional] [default to undefined]
 **averageFtp** | **number** |  | [optional] [default to undefined]

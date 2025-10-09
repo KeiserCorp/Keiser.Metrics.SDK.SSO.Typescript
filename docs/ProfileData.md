@@ -5,7 +5,7 @@
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **userId** | **number** |  | [default to undefined]
-**updatedAt** | **string** |  | [default to undefined]
+**updatedAt** | **string** |  | [optional] [default to undefined]
 **name** | **string** |  | [optional] [default to undefined]
 **birthday** | **string** |  | [optional] [default to undefined]
 **gender** | **string** |  | [optional] [default to undefined]

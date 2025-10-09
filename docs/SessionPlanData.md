@@ -6,8 +6,8 @@ Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **id** | **number** |  | [default to undefined]
 **name** | **string** |  | [default to undefined]
-**description** | **string** |  | [default to undefined]
-**notes** | **string** |  | [default to undefined]
+**description** | **string** |  | [optional] [default to undefined]
+**notes** | **string** |  | [optional] [default to undefined]
 **startAt** | **string** |  | [default to undefined]
 **endAt** | **string** |  | [optional] [default to undefined]
 **active** | **boolean** |  | [default to undefined]
