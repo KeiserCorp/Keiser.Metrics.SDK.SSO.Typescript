@@ -25,6 +25,7 @@ Method | HTTP request | Description
 [**basicCredentialUpdate**](MetricsSSOApi.md#basicCredentialUpdate) | **POST** /auth/basic-credential/update | Update a user\&#39;s credentials
 [**emailAddressValidationFulfillment**](MetricsSSOApi.md#emailAddressValidationFulfillment) | **POST** /user/email-address/validation-fulfillment/{validationToken} | Fulfills a user\&#39;s email validation process
 [**heightMeasurementCreate**](MetricsSSOApi.md#heightMeasurementCreate) | **POST** /user/height-measurement | Create a user height measurement
+[**metaServiceStatus**](MetricsSSOApi.md#metaServiceStatus) | **GET** /meta/service-status | Returns current service maintenance status
 [**oauthAuthorize**](MetricsSSOApi.md#oauthAuthorize) | **POST** /oauth/authorize | Authorizes a third party application
 [**oauthDeauthorize**](MetricsSSOApi.md#oauthDeauthorize) | **DELETE** /oauth/deauthorize | Deauthorizes an oauth user
 [**oauthInitiate**](MetricsSSOApi.md#oauthInitiate) | **POST** /oauth/initiate/{service} | Initiates OAuth access request and return parameters
@@ -1158,6 +1159,51 @@ Name | Type | Description  | Notes
 ### Authorization
 
 [bearerAuth](../README.md#bearerAuth)
+
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **metaServiceStatus**
+> ServiceStatusResponse metaServiceStatus()
+
+
+### Example
+
+
+```typescript
+import { MetricsSSOApi } from '@keiser/metrics-sdk-sso-typescript';
+import * as fs from 'fs';
+
+const api = new MetricsSSOApi();
+
+let body:MetricsSSOApiMetaServiceStatusRequest = {
+  // string (optional)
+  apiVersion: apiVersion_example,
+};
+
+try {
+  const data = await api.metaServiceStatus(body);
+  console.log('API called successfully. Returned data: ' + data);
+} catch (error) {
+  console.error(error);
+}
+```
+
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **apiVersion** | [**string**] |  | (optional) defaults to undefined
+
+
+### Return type
+
+**ServiceStatusResponse**
+
+### Authorization
+
+No authorization required
 
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)

@@ -1,4 +1,4 @@
-## @keiser/metrics-sdk-sso-typescript@5.3.4
+## @keiser/metrics-sdk-sso-typescript@5.3.5
 
 ## Project
 This SDK facilitates communication between a client system (_ie: phone app, website, server_) and [Keiser Metrics](https://metrics.keiser.com). The SDK is written in [TypeScript](https://www.typescriptlang.org) and supports both [browser](https://caniuse.com/#feat=es6) and [NodeJS](https://nodejs.org) platforms.
@@ -9,7 +9,7 @@ This SDK facilitates communication between a client system (_ie: phone app, webs
 Navigate to the folder of your consuming project and install with [npm](https://www.npmjs.com/):
 
 ```
-npm install @keiser/metrics-sdk-sso-typescript@5.3.4 --save
+npm install @keiser/metrics-sdk-sso-typescript@5.3.5 --save
 ```
 
 
@@ -66,6 +66,7 @@ Method | HTTP request | Description
 [**basicCredentialUpdate**](docs/MetricsSSOApi.md#basicCredentialUpdate) | **POST** /auth/basic-credential/update | Update a user\&#39;s credentials
 [**emailAddressValidationFulfillment**](docs/MetricsSSOApi.md#emailAddressValidationFulfillment) | **POST** /user/email-address/validation-fulfillment/{validationToken} | Fulfills a user\&#39;s email validation process
 [**heightMeasurementCreate**](docs/MetricsSSOApi.md#heightMeasurementCreate) | **POST** /user/height-measurement | Create a user height measurement
+[**metaServiceStatus**](docs/MetricsSSOApi.md#metaServiceStatus) | **GET** /meta/service-status | Returns current service maintenance status
 [**oauthAuthorize**](docs/MetricsSSOApi.md#oauthAuthorize) | **POST** /oauth/authorize | Authorizes a third party application
 [**oauthDeauthorize**](docs/MetricsSSOApi.md#oauthDeauthorize) | **DELETE** /oauth/deauthorize | Deauthorizes an oauth user
 [**oauthInitiate**](docs/MetricsSSOApi.md#oauthInitiate) | **POST** /oauth/initiate/{service} | Initiates OAuth access request and return parameters
@@ -128,6 +129,7 @@ Method | HTTP request | Description
  - [MSeriesDataSetData](docs/MSeriesDataSetData.md)
  - [MSeriesDataSetSegmentData](docs/MSeriesDataSetSegmentData.md)
  - [MSeriesFtpMeasurementData](docs/MSeriesFtpMeasurementData.md)
+ - [MaintenanceStatus](docs/MaintenanceStatus.md)
  - [MuscleArea](docs/MuscleArea.md)
  - [MuscleData](docs/MuscleData.md)
  - [MuscleGroup](docs/MuscleGroup.md)
@@ -148,6 +150,7 @@ Method | HTTP request | Description
  - [ProfileResponse](docs/ProfileResponse.md)
  - [RedirectResponse](docs/RedirectResponse.md)
  - [ResistancePrecision](docs/ResistancePrecision.md)
+ - [ServiceStatusResponse](docs/ServiceStatusResponse.md)
  - [SessionData](docs/SessionData.md)
  - [SessionPlanActivitySetData](docs/SessionPlanActivitySetData.md)
  - [SessionPlanCardioSetData](docs/SessionPlanCardioSetData.md)
