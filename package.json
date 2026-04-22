@@ -1,6 +1,6 @@
 {
   "name": "@keiser/metrics-sdk-sso-typescript",
-  "version": "5.3.12",
+  "version": "5.3.14",
   "engines": {
     "node": ">=22.11"
   },
