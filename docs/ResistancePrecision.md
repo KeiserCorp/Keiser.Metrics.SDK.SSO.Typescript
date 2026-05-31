@@ -3,9 +3,9 @@
 ## Enum
 
 
-* `Int` (value: `'int'`)
+* `int` (value: `'int'`)
 
-* `Dec` (value: `'dec'`)
+* `dec` (value: `'dec'`)
 
 
 [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)

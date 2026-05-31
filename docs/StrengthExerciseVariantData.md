@@ -7,7 +7,7 @@ Name | Type | Description | Notes
 **id** | **number** |  | [default to undefined]
 **variant** | [**StrengthExerciseVariantType**](StrengthExerciseVariantType.md) |  | [default to undefined]
 **attachment** | [**StrengthExerciseVariantAttachment**](StrengthExerciseVariantAttachment.md) |  | [optional] [default to undefined]
-**equipmentMechanicalMovement** | [**StrengthExerciseMovement**](StrengthExerciseMovement.md) |  | [default to undefined]
+**equipmentMechanicalMovement** | [**StrengthExerciseMovement**](StrengthExerciseMovement.md) |  | [optional] [default to undefined]
 **instructionalImage** | **string** |  | [optional] [default to undefined]
 **instructionalVideo** | **string** |  | [optional] [default to undefined]
 **strengthExercise** | [**StrengthExerciseData**](StrengthExerciseData.md) |  | [optional] [default to undefined]

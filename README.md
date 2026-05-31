@@ -1,4 +1,4 @@
-## @keiser/metrics-sdk-sso-typescript@5.3.18
+## @keiser/metrics-sdk-sso-typescript@5.4.0
 
 ## Project
 This SDK facilitates communication between a client system (_ie: phone app, website, server_) and [Keiser Metrics](https://metrics.keiser.com). The SDK is written in [TypeScript](https://www.typescriptlang.org) and supports both [browser](https://caniuse.com/#feat=es6) and [NodeJS](https://nodejs.org) platforms.
@@ -9,7 +9,7 @@ This SDK facilitates communication between a client system (_ie: phone app, webs
 Navigate to the folder of your consuming project and install with [npm](https://www.npmjs.com/):
 
 ```
-npm install @keiser/metrics-sdk-sso-typescript@5.3.18 --save
+npm install @keiser/metrics-sdk-sso-typescript@5.4.0 --save
 ```
 
 
@@ -84,6 +84,7 @@ Method | HTTP request | Description
 
 ## Documentation for Models
 
+ - [A400DataSetData](docs/A400DataSetData.md)
  - [A500AppType](docs/A500AppType.md)
  - [A500DataSetData](docs/A500DataSetData.md)
  - [A500DataSetType](docs/A500DataSetType.md)
@@ -101,16 +102,24 @@ Method | HTTP request | Description
  - [CardioMachineParseCode](docs/CardioMachineParseCode.md)
  - [CharacterType](docs/CharacterType.md)
  - [CheckReturnRouteResponse](docs/CheckReturnRouteResponse.md)
+ - [DisplayDataMode](docs/DisplayDataMode.md)
+ - [DisplayFocusMode](docs/DisplayFocusMode.md)
+ - [DisplayUnit](docs/DisplayUnit.md)
  - [EmailAddressData](docs/EmailAddressData.md)
  - [EmailAddressResponse](docs/EmailAddressResponse.md)
  - [EmployeeRole](docs/EmployeeRole.md)
  - [ExchangeableUserResponse](docs/ExchangeableUserResponse.md)
+ - [Exercise](docs/Exercise.md)
  - [ExerciseAliasData](docs/ExerciseAliasData.md)
  - [ExerciseAliasType](docs/ExerciseAliasType.md)
  - [ExerciseOrdinalSetAssignmentData](docs/ExerciseOrdinalSetAssignmentData.md)
  - [ExerciseOrdinalSetData](docs/ExerciseOrdinalSetData.md)
  - [FacilityConfigurationData](docs/FacilityConfigurationData.md)
  - [FacilityData](docs/FacilityData.md)
+ - [FacilityDisplayConfigurationData](docs/FacilityDisplayConfigurationData.md)
+ - [FacilityDisplayOperatingSchedule](docs/FacilityDisplayOperatingSchedule.md)
+ - [FacilityDisplayOperatingScheduleEntry](docs/FacilityDisplayOperatingScheduleEntry.md)
+ - [FacilityDisplayOperatingScheduleTime](docs/FacilityDisplayOperatingScheduleTime.md)
  - [FacilityLicenseData](docs/FacilityLicenseData.md)
  - [FacilityLicenseType](docs/FacilityLicenseType.md)
  - [FacilityProfileData](docs/FacilityProfileData.md)
@@ -129,7 +138,9 @@ Method | HTTP request | Description
  - [MSeriesDataSetData](docs/MSeriesDataSetData.md)
  - [MSeriesDataSetSegmentData](docs/MSeriesDataSetSegmentData.md)
  - [MSeriesFtpMeasurementData](docs/MSeriesFtpMeasurementData.md)
+ - [MachineWorkoutSetResponseData](docs/MachineWorkoutSetResponseData.md)
  - [MaintenanceStatus](docs/MaintenanceStatus.md)
+ - [MotionDataPoint](docs/MotionDataPoint.md)
  - [MuscleArea](docs/MuscleArea.md)
  - [MuscleData](docs/MuscleData.md)
  - [MuscleGroup](docs/MuscleGroup.md)
@@ -145,6 +156,7 @@ Method | HTTP request | Description
  - [OauthServiceSubscriptionResponse](docs/OauthServiceSubscriptionResponse.md)
  - [OauthServiceSubscriptionsMeta](docs/OauthServiceSubscriptionsMeta.md)
  - [OauthTokenResponse](docs/OauthTokenResponse.md)
+ - [PowerRegression](docs/PowerRegression.md)
  - [PrimaryEmailAddressData](docs/PrimaryEmailAddressData.md)
  - [ProfileData](docs/ProfileData.md)
  - [ProfileResponse](docs/ProfileResponse.md)
@@ -163,7 +175,9 @@ Method | HTTP request | Description
  - [SessionPlanSetType](docs/SessionPlanSetType.md)
  - [SessionPlanStrengthSetData](docs/SessionPlanStrengthSetData.md)
  - [SessionPlanStretchSetData](docs/SessionPlanStretchSetData.md)
+ - [SetType](docs/SetType.md)
  - [Side](docs/Side.md)
+ - [SixRepTestData](docs/SixRepTestData.md)
  - [StrengthExerciseCategory](docs/StrengthExerciseCategory.md)
  - [StrengthExerciseData](docs/StrengthExerciseData.md)
  - [StrengthExerciseMovement](docs/StrengthExerciseMovement.md)
@@ -179,15 +193,24 @@ Method | HTTP request | Description
  - [StrengthMachineDataSetTestSubsetData](docs/StrengthMachineDataSetTestSubsetData.md)
  - [StrengthMachineLine](docs/StrengthMachineLine.md)
  - [StrengthMachineModelData](docs/StrengthMachineModelData.md)
+ - [StrengthMachineModelNumberData](docs/StrengthMachineModelNumberData.md)
  - [StrengthTestType](docs/StrengthTestType.md)
  - [StretchExerciseData](docs/StretchExerciseData.md)
  - [StretchExerciseVariantData](docs/StretchExerciseVariantData.md)
  - [StretchExerciseVariantType](docs/StretchExerciseVariantType.md)
+ - [TenRepTestData](docs/TenRepTestData.md)
+ - [TenRepTestSideResults](docs/TenRepTestSideResults.md)
  - [TestSide](docs/TestSide.md)
+ - [TimeZone](docs/TimeZone.md)
  - [UserData](docs/UserData.md)
  - [UserResponse](docs/UserResponse.md)
+ - [Value](docs/Value.md)
+ - [VelocityRegression](docs/VelocityRegression.md)
  - [WeightMeasurementData](docs/WeightMeasurementData.md)
  - [WeightMeasurementResponse](docs/WeightMeasurementResponse.md)
+ - [WorkoutSetPositionDataEvent](docs/WorkoutSetPositionDataEvent.md)
+ - [WorkoutSetRepDataPoint](docs/WorkoutSetRepDataPoint.md)
+ - [WorkoutSetSideData](docs/WorkoutSetSideData.md)
 
 
 ## Documentation for Authorization

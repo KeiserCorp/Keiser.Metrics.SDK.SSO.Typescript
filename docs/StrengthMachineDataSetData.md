@@ -23,11 +23,16 @@ Name | Type | Description | Notes
 **work** | **number** |  | [optional] [default to undefined]
 **distance** | **number** |  | [optional] [default to undefined]
 **addedWeight** | **number** |  | [optional] [default to undefined]
+**clientSetId** | **string** |  | [optional] [default to undefined]
+**setNumber** | **number** |  | [optional] [default to undefined]
+**startedAt** | **Date** |  | [optional] [default to undefined]
 **test** | [**StrengthMachineDataSetTestData**](StrengthMachineDataSetTestData.md) |  | [optional] [default to undefined]
 **strengthMachine** | [**StrengthMachineData**](StrengthMachineData.md) |  | [optional] [default to undefined]
 **strengthExercise** | [**StrengthExerciseData**](StrengthExerciseData.md) |  | [optional] [default to undefined]
 **a500DataSet** | [**A500DataSetData**](A500DataSetData.md) |  | [optional] [default to undefined]
+**a400DataSet** | [**A400DataSetData**](A400DataSetData.md) |  | [optional] [default to undefined]
 **session** | [**SessionData**](SessionData.md) |  | [optional] [default to undefined]
+**profile** | [**ProfileData**](ProfileData.md) |  | [optional] [default to undefined]
 **facilityStrengthMachine** | [**FacilityStrengthMachineData**](FacilityStrengthMachineData.md) |  | [optional] [default to undefined]
 
 

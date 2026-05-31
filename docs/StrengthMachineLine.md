@@ -3,19 +3,19 @@
 ## Enum
 
 
-* `A250` (value: `'a250'`)
+* `a250` (value: `'a250'`)
 
-* `A300` (value: `'a300'`)
+* `a300` (value: `'a300'`)
 
-* `A350` (value: `'a350'`)
+* `a350` (value: `'a350'`)
 
-* `Infinity` (value: `'infinity'`)
+* `infinity` (value: `'infinity'`)
 
-* `PowerRack` (value: `'powerRack'`)
+* `powerRack` (value: `'powerRack'`)
 
-* `A400` (value: `'a400'`)
+* `a400` (value: `'a400'`)
 
-* `A500` (value: `'a500'`)
+* `a500` (value: `'a500'`)
 
 
 [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)

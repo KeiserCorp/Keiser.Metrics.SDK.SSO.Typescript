@@ -3,9 +3,9 @@
 ## Enum
 
 
-* `Numeric` (value: `'numeric'`)
+* `numeric` (value: `'numeric'`)
 
-* `Alpha` (value: `'alpha'`)
+* `alpha` (value: `'alpha'`)
 
 
 [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)

@@ -3,11 +3,11 @@
 ## Enum
 
 
-* `Primary` (value: `'primary'`)
+* `primary` (value: `'primary'`)
 
-* `Secondary` (value: `'secondary'`)
+* `secondary` (value: `'secondary'`)
 
-* `Tertiary` (value: `'tertiary'`)
+* `tertiary` (value: `'tertiary'`)
 
 
 [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)

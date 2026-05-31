@@ -3,33 +3,33 @@
 ## Enum
 
 
-* `Abs` (value: `'abs'`)
+* `abs` (value: `'abs'`)
 
-* `Back` (value: `'back'`)
+* `back` (value: `'back'`)
 
-* `Biceps` (value: `'biceps'`)
+* `biceps` (value: `'biceps'`)
 
-* `Calves` (value: `'calves'`)
+* `calves` (value: `'calves'`)
 
-* `Chest` (value: `'chest'`)
+* `chest` (value: `'chest'`)
 
-* `Forearms` (value: `'forearms'`)
+* `forearms` (value: `'forearms'`)
 
-* `Glutes` (value: `'glutes'`)
+* `glutes` (value: `'glutes'`)
 
-* `Hamstrings` (value: `'hamstrings'`)
+* `hamstrings` (value: `'hamstrings'`)
 
-* `HipFlexors` (value: `'hipFlexors'`)
+* `hipFlexors` (value: `'hipFlexors'`)
 
-* `Neck` (value: `'neck'`)
+* `neck` (value: `'neck'`)
 
-* `Shoulders` (value: `'shoulders'`)
+* `shoulders` (value: `'shoulders'`)
 
-* `Triceps` (value: `'triceps'`)
+* `triceps` (value: `'triceps'`)
 
-* `UpperBack` (value: `'upperBack'`)
+* `upperBack` (value: `'upperBack'`)
 
-* `Thighs` (value: `'thighs'`)
+* `thighs` (value: `'thighs'`)
 
 
 [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)

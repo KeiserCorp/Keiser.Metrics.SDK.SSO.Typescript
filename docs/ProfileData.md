@@ -7,6 +7,8 @@ Name | Type | Description | Notes
 **userId** | **number** |  | [default to undefined]
 **updatedAt** | **string** |  | [optional] [default to undefined]
 **name** | **string** |  | [optional] [default to undefined]
+**firstName** | **string** |  | [optional] [default to undefined]
+**lastName** | **string** |  | [optional] [default to undefined]
 **birthday** | **string** |  | [optional] [default to undefined]
 **gender** | **string** |  | [optional] [default to undefined]
 **language** | **string** |  | [optional] [default to undefined]

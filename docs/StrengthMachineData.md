@@ -11,6 +11,7 @@ Name | Type | Description | Notes
 **dualSided** | **boolean** |  | [default to undefined]
 **defaultStrengthExerciseId** | **number** |  | [optional] [default to undefined]
 **defaultStrengthExercise** | [**StrengthExerciseData**](StrengthExerciseData.md) |  | [optional] [default to undefined]
+**modelNumbers** | [**Array&lt;StrengthMachineModelNumberData&gt;**](StrengthMachineModelNumberData.md) |  | [optional] [default to undefined]
 **models** | [**Array&lt;StrengthMachineModelData&gt;**](StrengthMachineModelData.md) |  | [optional] [default to undefined]
 
 

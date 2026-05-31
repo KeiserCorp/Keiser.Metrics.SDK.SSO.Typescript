@@ -3,17 +3,17 @@
 ## Enum
 
 
-* `Normal` (value: `'normal'`)
+* `normal` (value: `'normal'`)
 
-* `SingleArm` (value: `'singleArm'`)
+* `singleArm` (value: `'singleArm'`)
 
-* `SingleLeg` (value: `'singleLeg'`)
+* `singleLeg` (value: `'singleLeg'`)
 
-* `SingleArmSingleLeg` (value: `'singleArmSingleLeg'`)
+* `singleArmSingleLeg` (value: `'singleArmSingleLeg'`)
 
-* `DoubleArmSingleLeg` (value: `'doubleArmSingleLeg'`)
+* `doubleArmSingleLeg` (value: `'doubleArmSingleLeg'`)
 
-* `Alternate` (value: `'alternate'`)
+* `alternate` (value: `'alternate'`)
 
 
 [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)

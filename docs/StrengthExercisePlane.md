@@ -3,11 +3,11 @@
 ## Enum
 
 
-* `Sagittal` (value: `'sagittal'`)
+* `sagittal` (value: `'sagittal'`)
 
-* `Frontal` (value: `'frontal'`)
+* `frontal` (value: `'frontal'`)
 
-* `Transverse` (value: `'transverse'`)
+* `transverse` (value: `'transverse'`)
 
 
 [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)

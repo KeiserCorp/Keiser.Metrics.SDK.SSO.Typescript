@@ -3,15 +3,15 @@
 ## Enum
 
 
-* `Admin` (value: `'admin'`)
+* `admin` (value: `'admin'`)
 
-* `CustomerSupport` (value: `'customerSupport'`)
+* `customerSupport` (value: `'customerSupport'`)
 
-* `Trainer` (value: `'trainer'`)
+* `trainer` (value: `'trainer'`)
 
-* `FrontDesk` (value: `'frontDesk'`)
+* `frontDesk` (value: `'frontDesk'`)
 
-* `Maintenance` (value: `'maintenance'`)
+* `maintenance` (value: `'maintenance'`)
 
 
 [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)

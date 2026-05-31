@@ -9,8 +9,11 @@ Name | Type | Description | Notes
 **facilityId** | **number** |  | [default to undefined]
 **member** | **boolean** |  | [default to undefined]
 **memberIdentifier** | **string** |  | [optional] [default to undefined]
+**pinCode** | **string** |  | [optional] [default to undefined]
+**externalIdentifier** | **string** |  | [optional] [default to undefined]
 **hasSecretSet** | **boolean** |  | [default to undefined]
 **employeeRole** | [**EmployeeRole**](EmployeeRole.md) |  | [optional] [default to undefined]
+**deactivatedAt** | **string** |  | [default to undefined]
 **facility** | [**FacilityData**](FacilityData.md) |  | [optional] [default to undefined]
 **user** | [**FacilitySessionUserData**](FacilitySessionUserData.md) |  | [optional] [default to undefined]
 

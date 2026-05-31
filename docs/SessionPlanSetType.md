@@ -3,13 +3,13 @@
 ## Enum
 
 
-* `Cardio` (value: `'cardio'`)
+* `cardio` (value: `'cardio'`)
 
-* `Strength` (value: `'strength'`)
+* `strength` (value: `'strength'`)
 
-* `Stretch` (value: `'stretch'`)
+* `stretch` (value: `'stretch'`)
 
-* `Activity` (value: `'activity'`)
+* `activity` (value: `'activity'`)
 
 
 [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)

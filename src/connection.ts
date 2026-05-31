@@ -1,7 +1,7 @@
 import { DecodeJWT } from './jwt'
 import { SessionError } from './error'
 import { EventDispatcher } from './event'
-import { DEFAULT_REQUEST_TIMEOUT, ConnectionEvent, ConnectionOptions, MetricsConnection, PushDataEvent, HTTPMethod, HTTPHeaders } from './runtime'
+import { DEFAULT_REQUEST_TIMEOUT, ConnectionEvent, ConnectionOptions, MetricsConnection, PushDataEvent, HTTPMethod, HTTPHeaders, HTTPBody } from './runtime'
 export const JWT_TTL_LIMIT = 5000
 const MAX_TIMEOUT = 2147483647;
 
@@ -130,7 +130,7 @@ export class AuthenticatedConnection {
 
     async initializeAuthenticatedSession( refreshToken: string) : Promise<AuthenticatedResponse> {
       this.updateTokens({accessToken: refreshToken})
-      const authenticatedResponse: AuthenticatedResponse = await this.keepAccessTokenAlive();
+      const authenticatedResponse = await this.keepAccessTokenAlive(true);
       return authenticatedResponse;
     }
   
@@ -155,7 +155,9 @@ export class AuthenticatedConnection {
       }
     }
   
-    private async keepAccessTokenAlive(): Promise<AuthenticatedResponse> {
+    private async keepAccessTokenAlive(shouldThrow: true): Promise<AuthenticatedResponse>
+    private async keepAccessTokenAlive(shouldThrow?: false): Promise<AuthenticatedResponse | undefined>
+    private async keepAccessTokenAlive(shouldThrow: boolean = false): Promise<AuthenticatedResponse | undefined> {
       try {
         const response = await this.authenticatedAction(
           "auth:keepAlive",
@@ -166,13 +168,23 @@ export class AuthenticatedConnection {
           {}
         );
         if (!isAuthenticatedResponse(response)) {
-          throw new SessionError({
+          const error = new SessionError({
             name: "InvalidTokenResponse",
             message: "Failed to refresh access token",
           });
+          if (shouldThrow) {
+            throw error;
+          }
+          return;
         }
         return response;
       } catch (error) {
+        if (!shouldThrow) {
+          return;
+        }
+        if (error instanceof SessionError) {
+          throw error;
+        }
         throw new SessionError({
           name: "TokenRefreshFailed",
           message: "Failed to keep access token alive",
@@ -240,18 +252,18 @@ export class AuthenticatedConnection {
       this.connection.dispose()
     }
   
-    async authenticatedAction (action: string, route: string, method: HTTPMethod, params: Object = { }, pathParams: Object = { }, headers: HTTPHeaders) {
+    async authenticatedAction (action: string, route: string, method: HTTPMethod, params: Object = { }, pathParams: Object = { }, headers: HTTPHeaders, body?: HTTPBody) {
       let response
       if (this._keepAlive && this._accessTokenTimeout !== null && this.decodedAccessToken.exp * 1000 - Date.now() <= JWT_TTL_LIMIT + DEFAULT_REQUEST_TIMEOUT) {
         clearTimeout(this._accessTokenTimeout)
       }
       try {
         const authParams = { authorization: this._accessToken, ...params }
-        response = await this._connection.action(action, route, method, authParams, pathParams, headers)
+        response = await this._connection.action(action, route, method, authParams, pathParams, headers, body)
       } catch (error) {
         if (error instanceof SessionError && this._refreshToken !== null && (DecodeJWT(this._refreshToken) as RefreshToken).exp * 1000 - Date.now() > 0) {
           const authParams = { authorization: this._refreshToken, ...params }
-          response = await this._connection.action(action, route, method, authParams, pathParams, headers)
+          response = await this._connection.action(action, route, method, authParams, pathParams, headers, body)
         } else {
           throw error
         }
@@ -261,11 +273,11 @@ export class AuthenticatedConnection {
       }
       return response
     }
-    async action (action: string, route: string, method: HTTPMethod, params: Object = { }, pathParams: Object = { }, headers: HTTPHeaders) {
+    async action (action: string, route: string, method: HTTPMethod, params: Object = { }, pathParams: Object = { }, headers: HTTPHeaders, body?: HTTPBody) {
       let response
       
       try {
-        response = await this._connection.action(action, route, method, params, pathParams, headers)
+        response = await this._connection.action(action, route, method, params, pathParams, headers, body)
       } catch (error) {
         throw error
       }

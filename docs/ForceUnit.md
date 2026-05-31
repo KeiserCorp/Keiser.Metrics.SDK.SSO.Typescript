@@ -3,13 +3,13 @@
 ## Enum
 
 
-* `Lb` (value: `'lb'`)
+* `lb` (value: `'lb'`)
 
-* `Kg` (value: `'kg'`)
+* `kg` (value: `'kg'`)
 
-* `Ne` (value: `'ne'`)
+* `ne` (value: `'ne'`)
 
-* `Er` (value: `'er'`)
+* `er` (value: `'er'`)
 
 
 [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)

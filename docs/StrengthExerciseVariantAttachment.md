@@ -3,23 +3,23 @@
 ## Enum
 
 
-* `Bar` (value: `'bar'`)
+* `bar` (value: `'bar'`)
 
-* `Rope` (value: `'rope'`)
+* `rope` (value: `'rope'`)
 
-* `SingleHandles` (value: `'singleHandles'`)
+* `singleHandles` (value: `'singleHandles'`)
 
-* `DoubleHandles` (value: `'doubleHandles'`)
+* `doubleHandles` (value: `'doubleHandles'`)
 
-* `AnkleStrap` (value: `'ankleStrap'`)
+* `ankleStrap` (value: `'ankleStrap'`)
 
-* `ThighStrap` (value: `'thighStrap'`)
+* `thighStrap` (value: `'thighStrap'`)
 
-* `Belt` (value: `'belt'`)
+* `belt` (value: `'belt'`)
 
-* `Dip` (value: `'dip'`)
+* `dip` (value: `'dip'`)
 
-* `PullUpBar` (value: `'pullUpBar'`)
+* `pullUpBar` (value: `'pullUpBar'`)
 
 
 [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)

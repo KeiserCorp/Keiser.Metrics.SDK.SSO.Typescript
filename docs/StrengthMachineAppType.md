@@ -3,13 +3,13 @@
 ## Enum
 
 
-* `Performance` (value: `'performance'`)
+* `performance` (value: `'performance'`)
 
-* `Elder` (value: `'elder'`)
+* `elder` (value: `'elder'`)
 
-* `Medical` (value: `'medical'`)
+* `medical` (value: `'medical'`)
 
-* `Commercial` (value: `'commercial'`)
+* `commercial` (value: `'commercial'`)
 
 
 [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
