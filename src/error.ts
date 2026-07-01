@@ -63,7 +63,11 @@ export function GetErrorInstance (errorProperties: ActionErrorProperties) {
     UnhealthyNodeError,
     InvalidReturnUrlError,
     SubscribePreventedError,
-    DatabaseError
+    DatabaseError,
+    MaintenanceModeError,
+    GzipRequiredError,
+    TooManyRequestsError,
+    SubscribeFailedError
   ].find(c => c.code === errorProperties.code)
 
   if (typeof ErrorType !== 'undefined') {
@@ -224,6 +228,22 @@ export class SubscribePreventedError extends RequestError {
 
 export class DatabaseError extends RequestError {
   static readonly code = 633
+}
+
+export class MaintenanceModeError extends ServerError {
+  static readonly code = 634
+}
+
+export class GzipRequiredError extends RequestError {
+  static readonly code = 635
+}
+
+export class TooManyRequestsError extends RequestError {
+  static readonly code = 636
+}
+
+export class SubscribeFailedError extends ServerError {
+  static readonly code = 637
 }
 
 // Local Errors
