@@ -14,6 +14,7 @@ Name | Type | Description | Notes
 **lastUpdateSkippedReason** | **string** |  | [optional] [default to undefined]
 **lastUpdateFailureAt** | **Date** |  | [optional] [default to undefined]
 **lastUpdateFailureReason** | **string** |  | [optional] [default to undefined]
+**wireguardIp** | **string** |  | [optional] [default to undefined]
 **mainBoardSerial** | **string** |  | [optional] [default to undefined]
 **location** | **string** |  | [optional] [default to undefined]
 **displayUUID** | **string** |  | [optional] [default to undefined]
